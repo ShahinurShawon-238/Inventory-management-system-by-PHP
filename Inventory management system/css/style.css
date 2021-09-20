@@ -1,0 +1,513 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: unset;
+}
+/* scroll table */
+.scrollable{
+    height: 150px;
+    overflow: scroll;
+}
+.table td, .table th {
+    padding: 10px;
+    vertical-align: center;
+    border: 1px solid #000000;
+}
+/* Index page design */
+#index .container{
+    height: 650px;
+    width: 1140px;
+    background: url("../image/background3.jpg");
+    margin-top: 50px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+#homeButton{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    
+}
+button #arrowRight{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.homeButtonDiv{
+    margin-top: 300px;
+}
+.indexTxt{
+    color: #FBBC89;
+    font-size: 115px;
+    font-weight: 501;
+}
+#confirm {
+    display: none;
+    background-color: #ffffff;
+    border: 3px solid rgb(17, 16, 16);
+    position: absolute;
+    width: 400px;
+    height: 155px;
+    top: 37%;
+    left: 37%;
+    padding: 18px 8px 8px;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ #confirm button {
+    background-color: #48E5DA;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 10px;
+ }
+ #confirm button:hover{
+    background-color: #04c9bc;
+ }
+ #confirm .message {
+    text-align: center;
+    font-size: 24px;
+ }
+/* Admin-login page */
+#adminLogin .container{
+    height: 545px;
+    width: 800px;
+    background: url("../image/background2.jpg");
+    margin-top: 100px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#adminPanelTxt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 48px;
+}
+.adminlogin{
+
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* User login page */
+
+#userLogin .container{
+    height: 545px;
+    width: 800px;
+    background: url("../image/background1.jpg");
+    margin-top: 100px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.login-form {
+    width: 400px;
+    margin: 5px auto;
+}
+.login-form form {        
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .login-btn {
+    border-radius: 2px;
+}
+.input-group-prepend .fa {
+    font-size: 18px;
+}
+.login-btn {
+    font-size: 15px;
+    font-weight: bold;
+  	min-height: 40px;
+}
+.social-btn .btn {
+    border: none;
+    margin: 10px 3px 0;
+    opacity: 1;
+}
+.social-btn .btn:hover {
+    opacity: 0.9;
+}
+.social-btn .btn-secondary, .social-btn .btn-secondary:active {
+    background: #507cc0 !important;
+}
+.social-btn .btn-info, .social-btn .btn-info:active {
+    background: #64ccf1 !important;
+}
+.social-btn .btn-danger, .social-btn .btn-danger:active {
+    background: #df4930 !important;
+}
+.or-seperator {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #f7f7f7;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+/* Admin menu page */
+#adminMenu{
+    margin-top: 45px;
+}
+#adminMenu .container{
+    border: 3px solid black;
+    background-color: rgb(235, 231, 231);
+}
+#adminMenu .adminmenuRowContainer{
+    width: 95%;
+    height: 520px;
+    background-color: #0A3548;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 170px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menuLogo{
+    margin-bottom: -40px;
+}
+.menuTxt{
+    margin-top: -14px;
+    margin-bottom: 10px;
+}
+.adminmenuRowContainer img{
+    height: 200px;
+    width: 200px;
+    margin-top: 130px;
+}
+#UserMenu{
+    margin-top: 45px;
+}
+#UserMenu .container{
+    border: 3px solid black;
+    background-color: rgb(235, 231, 231);
+}
+#UserMenu .usermenuRowContainer{
+    width: 95%;
+    height: 520px;
+    background-color: #0A3548;
+}
+#UserMenu .navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 170px;
+    margin-left: 230px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#UserMenu #navbarNav a:hover{
+    color: #000000;
+}
+#UserMenu #navbarNav .active{
+    color: #000000;
+}
+.usermenuRowContainer img{
+    height: 200px;
+    width: 200px;
+    margin-top: 130px;
+}
+/* Category page */
+#catCol1 .container{
+    margin-top: 100px;
+    height: 300px;
+    width: 96%;
+    background-color: #EBE7E7;
+}
+#catCol1 .form-group{
+    margin-top: 30px;
+}
+#catCol1 form button{
+    margin: 15px 37px 0;
+}
+#catCol2 .container{
+    margin-top: 100px;
+    height: 300px;
+    width: 96%;
+    background-color: #ebe7e7;
+}
+#catCol2 .scrollable{
+    height: 280px;
+
+}
+/* Product page */
+#productContainer form{
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+#productContainer .col-form-label{
+    color: #ffffff;
+    font-size: 16px;
+}
+#productContainer form button{
+    margin: -10px 60px 0px;
+}
+textarea.form-control {
+    height: calc(1.5em + .75rem + 2px);
+}
+ #productContainer table{
+    font-weight: lighter;
+    
+}
+#productContainer table img{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+#productContainer .box{
+    width: 101%;
+    /* height: 135px; */
+    background-color: #EBE7E7;
+    border: 2px solid #000000;
+    margin-top: -30px;
+    margin-left: -5px
+}
+#userproductContainer .box{
+    width: 100%;
+    height: 480px;
+    margin-top: 20px;
+    background-color: #EBE7E7;
+    border: 2px solid #000000;
+}
+#userproductContainer .box .scrollable{
+    height: 475px;
+}
+#userproductContainer table img{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+/* Point of sell page */
+.box1{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #EBE7E7;
+    border: 2px solid #000000;
+}
+.box1 #quantity,.box1 #price,.box1 #productName,.box1 #barcode.form-control{
+    width: 90%;
+    margin: 10px 20px 5px 10px;
+}
+.box1 button#Enter_Button{
+    margin-left: 85px;
+}
+.box1 button.addButton{
+    padding: 3px 52px;
+    margin-left: 12px;
+}
+.box2{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    background-color: #EBE7E7;
+}
+.box2 table a{
+    text-decoration: none;
+    color: white;
+    background-color: #09dee6;
+    font-size: 13px;
+}
+.box2 table a:hover{
+    background-color: #08a0a5;
+}
+.box2 table{
+    line-height: 0;
+    font-weight: lighter;
+}
+.box2 .col-md-2{
+    height: 250px;
+    background-color: #0A3548;
+}
+.box2 .col-md-2 button{
+    
+    margin-top: 105px;
+    margin-left: 30px;
+}
+.box3 form{
+    margin-top: 50px;
+}
+.box3 form button{
+    margin-left: 52px !important;
+}
+.box3 form button.clear{
+    margin-left: 155px !important;
+    margin-top: 5px;
+}
+.box3 form a{
+    text-decoration: none;
+    padding: 10px 12px;
+    background: #139aa3;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:50px;
+}
+.box3 form a:hover{
+    background: #035e64;
+}
+.productcarttable .scrollable{
+    height: 245px;
+}
+/* User page */
+.userregisterform{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.userregisterform .col-form-label{
+    color: #ffffff;
+}
+/* .userregistercontainer table{
+    line-height: 0;
+    font-weight: lighter;
+} */
+
+.userregistercontainer .col-md-2{
+    height: 150px;
+    background-color: #0A3548;
+}
+.userregistercontainer .col-md-2 button{
+    
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.userregistercontainer .col-md-10{
+    width: 100%;
+    /* height: 150px; */
+    background-color: #EBE7E7;
+    border: 2px solid #000000;
+}
+.userregistercontainer table td img{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+
+.userregistercontainer .row2{
+    margin-left: 0px;
+}
+.userregistercontainer .col-md-8 button{
+    margin-left: 250px;
+}
+/* Point of buy page */
+/* .usermenuRowContainer button#Enter_Button,
+.usermenuRowContainer button.addButton{
+    margin-left: 0px;
+} */
+button.addButton
+#userpobContainer .box {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    background-color: #EBE7E7;
+    border: 2px solid #000000;
+}
+#userpobContainer .box1{
+    margin-top: -12px;
+}
+.productcarttable2 .scrollable{
+    height: 95px;
+}
+#userpobContainer .box2 {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #EBE7E7;
+}
+#userpobContainer .box3 form{
+    margin-top: 35px;
+}
+#userpobContainer table img{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+#userpobContainer .box2 .col-md-2 {
+    height: 100px;
+    background-color: #0A3548;
+}
+#userpobContainer .box2 .col-md-2 button {
+    margin-top: 38px;
+    margin-left: 30px;
+}
+#userpobContainer p{
+    color: #ffffff;
+}
+/* User menu */
+.imageshowbox{
+    
+    margin-top: -65px;
+    margin-right: 40px;
+}
+.imageshowbox img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* button */
+.buttoncss{
+    margin-left: 177px;
+    margin-top: -68px;
+}
+.buttoncss2{
+    margin-left: 335px;
+    margin-top: -116px;
+}
+.productbtn{
+    margin: 10px 440px 0px;
+}
+#productContainer table a {
+    text-decoration: none;
+    padding: 6px 10px;
+    background: #139aa3;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+#productContainer table a:hover{
+    background: #035e64;
+}
+/* Invoice */
+.invoice{
+    height: auto;
+    width: 650px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+.invoiceheader h1{
+    margin-top: -60px;
+}
+.total{
+    margin-right: 33px;
+}
+.date{
+    margin-top: 150px;
+}
